@@ -1,0 +1,118 @@
+# image
+/***Small Reset***/
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+
+/**
+General styles
+**/
+
+body {
+  color: #eaeaef;
+  font: 14px 'Segoe UI', Arial, sans-serif;
+  background: #cf5f2f;
+}
+
+a {
+  text-decoration: none;
+  outline: none;
+  font-size: 1.4em;
+  font-weight: 800;
+}
+
+img {
+  width: 100%;
+  height: auto;
+}
+
+
+/**
+The container
+**/
+
+.container {
+  width: 70%;
+  margin: 10px auto;
+  overflow: auto;
+}
+
+
+/**
+nav bar
+**/
+
+#navbar {
+  display: block;
+  height: 40px;
+  background: #1f152f;
+  text-align: center;
+}
+
+#navbar a {
+  color: #af0000;
+  display: inline-block;
+  height: 40px;
+  line-height: 2em;
+  padding: 0 15px;
+  margin: 0 10px;
+}
+
+#navbar a.active,
+#navbar a:hover,
+#navbar a:focus {
+  background: #cfbfc0;
+}
+
+
+/**
+gallery
+**/
+
+#main {
+  display: block;
+  overflow: auto;
+  width: 100%;
+  margin: 0 auto;
+  min-height: 475px;
+}
+
+#gallery:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+#gallery {
+  background: #1f152f;
+}
+
+#gallery .hidden {
+  display: none;
+}
+
+#gallery li {
+  float: left;
+  list-style: none;
+  margin: 15px 2%;
+  width: 21%;
+  height: auto;
+  -webkit-box-shadow: 0 0 10px 2px #ccc;
+  -moz-box-shadow: 0 0 10px 2px #ccc;
+  box-shadow: 0 0 10px 2px #ccc;
+}
+
+
+/**
+footer
+*/
+
+footer {
+  text-align: center;
+  color: #1f152f;
+  font-size: 1.2em;
+  font-weight: 600;
+}
